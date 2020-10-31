@@ -1,6 +1,7 @@
 package leetcode876;
 
 public class FindMiddleOfLinkedListFunction {
+	// Simple problem with just slow pointer and fast pointer
     public ListNode middleNode(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
